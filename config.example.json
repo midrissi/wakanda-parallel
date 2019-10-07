@@ -1,0 +1,11 @@
+{
+  "WAKANDA_BIN": "WAKANDA_BIN",
+  "LICENSE_PATH": "LICENSE_PATH",
+  "SOLUTIONS": [{
+    "name": "solution2",
+    "solution": "WA_SOLUTION_1_FILE_FULL_PATH"
+  }, {
+    "name": "solution2",
+    "solution": "WA_SOLUTION_1_FILE_FULL_PATH"
+  }]
+}
