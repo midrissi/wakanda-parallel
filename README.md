@@ -22,3 +22,15 @@ npm start
 ```
 
 **`NB`**: Verify that all projects have different port to run them properly.
+
+Usefull scripts
+---------------
+
+* `npm start`: Start all solutions
+* `npm run restart -- [name]`: restart a specific solution (`name` is the name that you have specified in `config.json` file)
+* `npm run restart:all`: restart all solutions
+* `npm run stop -- [name]`: stop a specific solution (`name` is the name that you have specified in `config.json` file)
+* `npm run stop:all`: stop all solutions
+* `npm run list`: List the status of all solutions
+* `npm run logs`: Display standard output
+* `npm run show -- [name]`: Show details of a specific solution (`name` is the name that you have specified in `config.json` file)
