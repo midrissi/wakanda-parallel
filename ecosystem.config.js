@@ -1,4 +1,5 @@
 const {
+  DEBUGGER,
   SOLUTIONS,
   WAKANDA_BIN,
   LICENSE_PATH,
@@ -11,7 +12,7 @@ module.exports = {
   apps : SOLUTIONS.map((one) => ({
     name: one.name,
     script: WAKANDA_BIN,
-    args: `--solution "${one.solution}" --license "${LICENSE_PATH}" --admin-port ${++adminPort} --admin-ssl-port ${++adminSSLPort}`,
+    args: `${DEBUGGER ? '--debugger=remote ': ''}--solution "${one.solution}" --license "${LICENSE_PATH}" --admin-port ${++adminPort} --admin-ssl-port ${++adminSSLPort}`,
     instances: 1,
     autorestart: false,
     watch: false,

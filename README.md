@@ -5,6 +5,7 @@ How to start
 2. Copy the content of the file `config.example.json` into the previously created file
 3. Fill the variables:
 
+* `DEBUGGER`: Turn on the remote debugger
 * `WAKANDA_BIN`: Full path of `wakanda server` binary
 * `LICENSE_PATH`: Full path of the license file
 * `SOLUTIONS`: List of solutions to run. Each solution have a process `name` and a `solution` attribute that contains the full path of the `.waSolution` file.
