@@ -18,5 +18,9 @@
   "license": "ISC",
   "dependencies": {
     "pm2": "^3.5.1"
+  },
+  "repository": {
+    "url": "https://github.com/midrissi/wakanda-parallel.git",
+    "type": "git"
   }
 }
