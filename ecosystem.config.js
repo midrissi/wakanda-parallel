@@ -18,8 +18,9 @@ module.exports = {
       script: WAKANDA_BIN,
       args: `${DEBUGGER ? '--debugger=remote ' : ''}--solution "${one.solution}" --license "${LICENSE_PATH}" --admin-port ${adminPort} --admin-ssl-port ${adminSSLPort}`,
       instances: 1,
-      autorestart: false,
+      autorestart: true,
       watch: false,
+      exp_backoff_restart_delay: 100,
     };
   }),
 };
