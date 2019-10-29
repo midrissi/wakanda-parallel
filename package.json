@@ -20,7 +20,7 @@
   "dependencies": {
     "ajv": "^6.10.2",
     "commander": "^3.0.2",
-    "pm2": "^3.5.1"
+    "pm2": "^4.1.2"
   },
   "bin": {
     "wakanda-parallel": "./bin/wak-parallel.js"
@@ -32,9 +32,9 @@
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
-    "husky": "^3.0.8",
+    "husky": "^3.0.9",
     "release-it": "^12.4.3",
-    "eslint": "^6.5.1",
+    "eslint": "^6.6.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2"
   },
